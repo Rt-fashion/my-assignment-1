@@ -1,0 +1,86 @@
+
+
+
+
+
+
+  
+  /* Basic Reset & Global Styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+  }
+
+  .sora-body {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+    background-color: #f1f2f7;
+    line-height: 1.1;
+  }
+
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header Section */
+  .hero-banner {
+    background-image: url(./Assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 40px 80px;
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4E47FF;
+  }
+  
+  .sign-up-button {
+    background-color: #4E47FF;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .stay-focused-button {
+    background-color: #4E47FF;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 20px;
+  }
+  
